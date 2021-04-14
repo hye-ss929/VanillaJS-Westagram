@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westagram Main</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/2d323a629b.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <span class="westa_logo">Westagram</span>
+            <a><i class="fas fa-search"></i></a>
+            <input type="text" placeholder="검색">
+        <ul class="icons">
+            <i class="far fa-paper-plane"></i>
+            <i class="far fa-compass"></i>
+            <i class="far fa-heart"></i>
+            <img class="main-user" src="img/mainuser.png" alt="profile-img">
+        </ul>
+    </nav>
+    <main class="main-big-box">
+        <section class="left-box">
+            <article class="story-box">
+                <div>
+                    <img class="img-wat" src="img/html.png" alt="html-img">
+                    <p class="text-wat">HTML</p>
+                </div>
+                <div>
+                <img class="img-wat" src="img/css.png" alt="html-img">
+                <p class="text-wat">CSS</p>
+            </div>
+            </article>
+            <article class="nav-feed-box">
+                <img class="img-user" src="img/mainuser.png" alt="profile-img">
+                <p class="user-id">2929_9999</p>
+            </article>
+            <article class="feed-box">
+                <img class="img-jeju" src="img/jeju.jpg" alt="jeju-img">
+            </article>
+            <article class="comment-firstbox">
+                <ul class="comment-icons">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                    <p class="like">좋아요 100개</p>
+                </ul>
+                
+            </article>
+            <div class="commentBox">
+                <p class="feed-user">2929_9999</p>
+                <span>ᕕ( ᐛ )ᕗ 푸릇푸릇 제주 🌿</span>
+            </div>
+            <form class="add-comment" autocomplete="off">
+                <input id="comment-line" type="text" placeholder="댓글 달기...">
+                <button id="submit-box" type="submit">게시</button>
+            </form>
+        </section>
+        <aside class="right-box">
+            <article class="side">
+                <img class="img-side-user" src="img/mainuser.png" alt="profile-img">
+                <span class="side-user-id">2929_9999</span>
+                <p class="end-text-blue">전환</p>
+            </article>
+                <p class="side-text">회원님을 위한 추천</p>
+                <p class="end-text">모두보기</p>
+                <img class="iu-img" src="img/js.png" alt="">
+                <p class="small-text-1">JavaScript</p>
+                <p class="end-text-blue">팔로우</p>
+                <img  class="jsh-img" src="img/react.png" alt="">
+                <p class="small-text-2">React</p>
+                <p class="end-text-blue">팔로우</p>
+            </aside>
+    </main>
+</body>
+<script src="js/main.js"></script>
+</html>
